@@ -1,0 +1,13 @@
+{
+  "plugins": ["ts-exports"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking"
+  ],
+  "rules": {
+    "ts-exports/unused-exports": 2
+  }
+}
