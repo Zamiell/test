@@ -1,8 +1,6 @@
 {
   // https://www.typescriptlang.org/docs/handbook/compiler-options.html
   "compilerOptions": {
-    // Recommended as per TypeScriptToLua
-    // https://typescripttolua.github.io/docs/getting-started/
     "target": "ESNext",
     "lib": ["ESNext"],
     "moduleResolution": "Node",
